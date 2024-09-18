@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #2b2b2b;
+  height: 100%;
+}
+
+.content > p:first-child {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.content > p:not(:first-child) {
+  margin-top: 8px;
+}
+
+.choice_container {
+  margin-top: 56px;
+}
+
+.choice_container p {
+  margin-top: 16px;
+}
+
+.choice_container > p:not(:nth-child(2)) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn_reg {
+  height: 40px;
+  width: 208px;
+  background-color: #2b2b2b;
+}

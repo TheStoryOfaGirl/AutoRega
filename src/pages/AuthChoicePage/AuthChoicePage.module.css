@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #2b2b2b;
+  height: 100%;
+}
+
+.content > p:first-child {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.content > p {
+  font-size: 18px;
+}
