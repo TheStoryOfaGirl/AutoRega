@@ -1,7 +1,7 @@
 import { Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { URLS } from "../../const";
-import styles from "./NoAuthMainPAge.module.css";
+import styles from "./NoAuthMainPage.module.css";
 import { AuthButtons } from "@shared";
 
 export const NoAuthMainPage = () => {
